@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["nitroyamap"],
+  "ios": {
+    "iosModuleName": "NitroYamap"
+  },
+  "android": {
+    "androidNamespace": ["nitroyamap"],
+    "androidCxxLibName": "nitroyamap"
+  },
+  "autolinking": {
+    "NitroYamap": {
+      "swift": "NitroYamap",
+      "kotlin": "NitroYamap"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
